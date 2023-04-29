@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-black.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-blackitalic.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-bold.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-bolditalic.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-extrabolditalic.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-heavy.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-heavyitalic.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-lightitalic.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-medium.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-mediumitalic.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-regular.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-regularitalic.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-semibold.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-semibolditalic.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-thin.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-thinitalic.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-ultralight.ttf');
+  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-ultralightitalic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+* Обнуление
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  background: rgba(242, 247, 255, 0.5);
+  backdrop-filter: blur(50px);
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+button{
+  border:none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+
+
+.header {
+  margin-bottom: 95px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top:34px;
+ 
+}
+.header__left{
+  display: flex;
+}
+.header__left img{
+  min-width: 55px;
+  min-height: 40px;
+
+}
+.header__left p{
+  font-weight: 700;
+  font-size: 28.1106px;
+  line-height: 21px;
+  color: #1D2530;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.header__right {
+}
+.header__btn:nth-child(1){
+  background: #F1E4FF;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #685ED6;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 12px;
+}
+.header__btn:nth-child(2){
+  background: #685ED6;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.rek {
+}
+
+.rek__container {
+  display: flex;
+  margin-bottom: 73px;
+}
+.rek__txt {
+
+}
+.rek__title{
+ max-width: 383px;
+ margin-bottom: 24px;
+}
+.rek__title::first-line{
+  color: #685ED6;
+}
+.title {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  color:#1D2530;
+}
+.rek__txt-block {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #1D2530;
+  margin-bottom: 32px;
+  max-width: 482px;
+}
+.rek__txt-block p:nth-child(2){
+  color:  #685ED6;
+
+}
+.rek__btn {
+  background: #685ED6;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding: 12px 32px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.rek__img {
+}
+
+.onlain {
+}
+.onlain__container {
+
+}
+.container {
+}
+.online__title {
+  margin-bottom: 68px;
+}
+.title {
+}
+.inside__block {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.info-block {
+}
+.txt__block {
+  display: flex;
+  margin-bottom: 50px;
+}
+.txt__block img{
+  margin-right: 30px;
+}
+.txt__block:last-child{
+  margin-bottom: 0;
+}
+.txt__block__subtitle {
+}
+
+.subtitle {
+  color: #1D2530;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+.txt__block__text {
+  color: #1D2530;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
