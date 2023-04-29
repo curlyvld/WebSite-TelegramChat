@@ -1,23 +1,6 @@
 @font-face {
   font-family: "Gilroy";
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-black.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-blackitalic.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-bold.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-bolditalic.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-extrabolditalic.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-heavy.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-heavyitalic.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-lightitalic.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-medium.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-mediumitalic.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-regular.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-regularitalic.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-semibold.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-semibolditalic.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-thin.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-thinitalic.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-ultralight.ttf');
-  src: url('/fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-ultralightitalic.ttf');
+  src: url('./fonts/318748081bbc3135ad4deebf54ba77a7/gilroy-black.ttf');
   font-weight: normal;
   font-style: normal;
 }
